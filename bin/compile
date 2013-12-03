@@ -1,11 +1,4 @@
 #!/bin/sh
 
-cat > ~/droplet.yaml <<EOF
----
-state_file: state.yml
-EOF
-
-cat > ~/state.yml <<EOF
----
-state: STARTING
-EOF
+echo "doin thangs"
+exit 0
