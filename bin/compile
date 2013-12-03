@@ -1,9 +1,10 @@
-#!/bin/bash
+#!/bin/sh
 
-#for i in $(seq 0 300); do
-#  echo -n "-----> $(expr 300 - $i)s remaining: "
-#  date
-  
-#  sleep 1
-#done
-+echo GOOD JOB
+CACHE=$1
+
+mkdir -p $CACHE
+echo $CACHE
+echo Echoing sup to $CACHE
+
+echo sup >> $CACHE/foo
+echo Echoed
